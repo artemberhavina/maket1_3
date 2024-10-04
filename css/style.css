@@ -39,26 +39,26 @@
 }
 
 .btn-call {
-  background-image: url('img/ic_call.svg');
+  background-image: url('../img/ic_call.svg');
   display: none;
 }
 .btn-chat {
-  background-image: url('img/ic_chat.svg');
+  background-image: url('../img/ic_chat.svg');
   display: none;
 }
 .btn-profile {
-  background-image: url('img/ic_profile.svg');
+  background-image: url('../img/ic_profile.svg');
   display: none;
 }
 .btn-burger {
-  background-image: url('img/ic_burger.svg');
+  background-image: url('../img/ic_burger.svg');
 }
 .btn-repair {
-  background-image: url('img/ic_repair.svg');
+  background-image: url('../img/ic_repair.svg');
   margin-left: 16px;
 }
 .btn-checkstatus {
-  background-image: url('img/ic_checkstatus.svg');
+  background-image: url('../img/ic_checkstatus.svg');
 }
 
 .logo-link {
@@ -178,7 +178,7 @@
 
 .main__btnOpen-size::before {
   content: '';
-  background-image: url(img/arrow.svg);
+  background-image: url('../img/arrow.svg');
   background-repeat: no-repeat;
   display: block;
   width: 8px;
@@ -382,10 +382,12 @@
 
   .text-open1120 {
     display: inline-block;
+    margin-left: 34px;
   }
 
   .main__btnOpen-size1120 {
     bottom: 155px;
+    left: 14px;
   }
 
   .main__text {
