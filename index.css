@@ -1,0 +1,27 @@
+@import url('stylesheet.css');
+@import url('style.css');
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'TT Lakes', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  background-color: var(--base-background-color);
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
